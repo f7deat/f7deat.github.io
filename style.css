@@ -1,0 +1,176 @@
+:root {
+    --dark: #2e3a59;
+    --gray-100: #f7fafc;
+    --primary: #1e90ff;
+    --white: #ffffff;
+    --font-family: sans-serif;
+    --danger: #f53855;
+}
+body {
+    color: var(--dark);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    outline: none;
+}
+/*==Flex==*/
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.d-block {
+    display: block;
+}
+/*==Text Color==*/
+.text-white {
+    color: white;
+}
+.text-black {
+    color: black;
+}
+.text-dark {
+    color: var(--dark);
+}
+.text-danger {
+    color: var(--danger);
+}
+.text-primary {
+    color: var(--primary);
+}
+.text-indigo-700 {
+    color: #4c51bf;
+}
+/*==Text Style==*/
+.text-decoration-none {
+    text-decoration: none;
+}
+.text-decoration-underline {
+    text-decoration: underline;
+}
+.text-decoration-line-through {
+    text-decoration: line-through;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-bold {
+    font-weight: bold;
+}
+.font-weight-bolder {
+    font-weight: bolder;
+}
+/*==Text Align==*/
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+/*==Background==*/
+.bg-black {
+    background-color: black;
+}
+.bg-gray-100 {
+    background-color: var(--gray-100);
+}
+.bg-white {
+    background-color: white;
+}
+/*==Border==*/
+.border-danger {
+    border: 1px solid var(--danger);
+}
+.border-primary {
+    border: 1px solid var(--primary);
+}
+.rounded-pill {
+    border-radius: 50rem;
+}
+/*==Spacer==*/
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-2 {
+    margin-top: 0.25rem;
+}
+.mt-2 {
+    margin-top: 0.5rem;
+}
+.p-0 {
+    padding: 0;
+}
+.p-1 {
+    padding: 0.25rem;
+}
+.p-2 {
+    padding: 0.5rem;
+}
+.p-3 {
+    padding: 0.75rem;
+}
+.p-4 {
+    padding: 1rem;
+}
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.py-1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.whitespace-normal {
+    white-space: normal;
+}
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+/*==Hover==*/
+.hover-text-white:hover {
+    color: white;
+}
+.hover-text-danger:hover {
+    color: var(--danger);
+}
+.hover-bg-danger:hover {
+    background-color: var(--danger);
+}
+.hover-bg-primary:hover {
+    background-color: var(--primary);
+}
+/*==Opacity==*/
+.opacity-0 {
+    opacity: 0;
+}
+.opacity-25 {
+    opacity: 0.25;
+}
+.opacity-50 {
+    opacity: 0.5;
+}
+.opacity-75 {
+    opacity: 0.75;
+}
+.opacity-100 {
+    opacity: 1;
+}
+.w-100 {
+    width: 100%;
+}

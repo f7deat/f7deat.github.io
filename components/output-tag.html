@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Output Tag</title>
+</head>
+<body>
+<div class="fw-bold">🔥 Output Tag</div>
+<quote>
+    The &lt;output&gt; tag represents the result of a calculation. Typically this element defines a region that will be used to display text output from some calculation.
+</quote>
+<xmp>
+    <form oninput="x.value=parseInt(a.value) * parseInt(b.value)">
+        <input type="number" id="a" value="0">
+               * <input type="number" id="b" value="0">
+                     = <output name="x" for="a b"></output>
+     </form>
+</xmp>
+<div class="fw-bold">
+    See it in action
+</div>
+<form oninput="x.value=parseInt(a.value) * parseInt(b.value)">
+    <input type="number" id="a" value="0">
+           * <input type="number" id="b" value="0">
+                 = <output name="x" for="a b"></output>
+ </form>
+</body>
+</html>
